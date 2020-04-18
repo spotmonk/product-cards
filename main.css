@@ -1,3 +1,86 @@
 body {
-  background-color: beige;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-width: 300px;
+  height: 550px;
+  margin: 10px;
+  padding: 0;
+  border: 1px solid lightblue;
+  order: 3;
+  text-align: center;
+  flex: 0 0 30%
+}
+.prodDescrip img{
+  height: 150px;
+  width: 150px;
+}
+.cardHeader{
+  border-bottom: 1px solid lightblue;
+}
+
+.description {
+  text-align: justify;
+  margin: 5px;
+  padding: 0;
+}
+  
+.availability {
+  text-align: justify;
+  color: yellow;
+  background-color: gray;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.specHeader, 
+.priceHeader{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.prodSpecs,
+.prodPrice {
+  text-align: left;
+}
+
+.prodSpecs li,
+.prodPrice li {
+  list-style: none;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.prodSpecs ul,
+.prodPrice ul {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.specHeader,
+.priceHeader {
+  padding: 0;
+}
+
+h3{
+  margin: 0;
+}
+h5{
+  margin: 5px 0;
+  font-weight: normal;
+}
+.prodSpecs footer{
+
+  margin: 10px 0;
+  display: inline;
 }
